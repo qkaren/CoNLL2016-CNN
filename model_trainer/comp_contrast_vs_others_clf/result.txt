@@ -1,0 +1,36 @@
+------------------------------------------------------------------------------------------
+feature : MPQA_polarity verb_pair
+marco f1 : 0.48row = predicted, column = truth
+  0     1    
+0 669.0 83.0 
+1 3.0   1.0  
+
+0 	precision 0.889628 	recall 0.995536	 F1 0.939607
+1 	precision 0.250000 	recall 0.011905	 F1 0.022727
+* Overall accuracy rate = 0.886243
+* Average precision 0.569814 	 recall 0.503720	 F1 0.481167
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+feature : MPQA_polarity verb_pair
+marco f1 : nanrow = predicted, column = truth
+  0     1    
+0 672.0 84.0 
+1 0.0   0.0  
+
+0 	precision 0.888889 	recall 1.000000	 F1 0.941176
+1 	precision nan 	recall 0.000000	 F1 nan
+* Overall accuracy rate = 0.888889
+* Average precision nan 	 recall 0.500000	 F1 nan
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+feature : MPQA_polarity verb_pair
+marco f1 : 0.49row = predicted, column = truth
+  0     1    
+0 671.0 82.0 
+1 1.0   2.0  
+
+0 	precision 0.891102 	recall 0.998512	 F1 0.941754
+1 	precision 0.666667 	recall 0.023810	 F1 0.045977
+* Overall accuracy rate = 0.890212
+* Average precision 0.778884 	 recall 0.511161	 F1 0.493866
+------------------------------------------------------------------------------------------

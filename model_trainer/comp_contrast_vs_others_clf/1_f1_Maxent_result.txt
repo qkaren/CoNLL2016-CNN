@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------------------
+feature : firstlast_first3
+marco f1 : 0.57
+row = predicted, column = truth
+  0     1     
+0 527.0 175.0 
+1 14.0  40.0  
+
+0 	precision 0.750712 	recall 0.974122	 F1 0.847949
+1 	precision 0.740741 	recall 0.186047	 F1 0.297398
+* Overall accuracy rate = 0.750000
+* Average precision 0.745726 	 recall 0.580084	 F1 0.572673
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+feature : modality
+marco f1 : nan
+row = predicted, column = truth
+  0     1     
+0 541.0 215.0 
+1 0.0   0.0   
+
+0 	precision 0.715608 	recall 1.000000	 F1 0.834233
+1 	precision nan 	recall 0.000000	 F1 nan
+* Overall accuracy rate = 0.715608
+* Average precision nan 	 recall 0.500000	 F1 nan
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+feature : verbs
+marco f1 : nan
+row = predicted, column = truth
+  0     1     
+0 541.0 215.0 
+1 0.0   0.0   
+
+0 	precision 0.715608 	recall 1.000000	 F1 0.834233
+1 	precision nan 	recall 0.000000	 F1 nan
+* Overall accuracy rate = 0.715608
+* Average precision nan 	 recall 0.500000	 F1 nan
+------------------------------------------------------------------------------------------
